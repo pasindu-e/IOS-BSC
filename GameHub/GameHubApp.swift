@@ -1,6 +1,6 @@
 //
-//  sample1App.swift
-//  sample1
+//  GameHubApp.swift
+//  GameHub
 //
 //  Created by Pasindu Eranga on 2026-06-10.
 //
@@ -9,7 +9,7 @@ import SwiftUI
 internal import CoreData
 
 @main
-struct sample1App: App {
+struct GameHubApp: App {
     let persistence = PersistenceController.shared
     @State private var sessionStore = SessionStore()
     @State private var locationService = LocationService()

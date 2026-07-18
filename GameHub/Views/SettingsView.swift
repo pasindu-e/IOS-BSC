@@ -51,7 +51,7 @@ struct SettingsView: View {
                     Text("Notifications")
                 } footer: {
                     if permissionDenied {
-                        Text("Go to Settings › sample1 to allow notifications.")
+                        Text("Go to Settings › GameHub to allow notifications.")
                             .foregroundColor(.red)
                     }
                 }
